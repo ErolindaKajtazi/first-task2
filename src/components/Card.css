@@ -1,0 +1,22 @@
+.prog {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    padding: 5px 5rem;
+}
+
+.text {
+    font-style: italic;
+    color: gray;
+}
+
+.btn-2 {
+    padding: 1rem 4rem;
+    border-radius: 2rem;
+    border-color: rgb(74, 74, 211);
+    color: rgb(74, 74, 211);
+    
+}

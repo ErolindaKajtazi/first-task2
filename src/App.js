@@ -8,7 +8,7 @@ function App() {
   return (
     <div className="map">
       {items.map((item) => (
-        <Card className=""
+        <Card className="card"
           id={item.id}
           date={item.date}
           button1={item.button1}

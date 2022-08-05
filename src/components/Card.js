@@ -6,12 +6,12 @@ function Card(props) {
   return (
     <div>
       <h6>{`${id} ${date}`}</h6>
-      <div>
-        <button className="bg-color">{button1}</button>
+      <div className="prog">
+        <button className="btn">{button1}</button>
         <h6>{name}</h6>
       </div>
-      <p>{text}</p>
-      <button>{button2}</button>
+      <p className="text">{text}</p>
+      <button className="btn-2">{button2}</button>
     </div>
   );
 }
